@@ -341,7 +341,7 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '兄弟们 暂时停更哈';
+    if (score <= 49) return '你再骂！';
     if (score <= 99) return '你们这些水友、嗨粉，你们是水明星';
     if (score <= 149) return '那你去物管啊！';
     if (score <= 199) return '那真的牛批，啊，那真的牛批';
